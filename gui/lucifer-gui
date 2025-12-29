@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Lucifer GUI Launcher Script
+
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+
+# Start Python backend server
+echo "Starting Lucifer backend server..."
+python3 "$SCRIPT_DIR/../src/lucifer/server.py" &
+SERVER_PID=$!
+
+# Wait for server to start
+sleep 2
+
+# Start Electron GUI
+echo "Launching Lucifer GUI..."
+cd "$SCRIPT_DIR"
+npm start
+
+# Cleanup on exit
+trap "kill $SERVER_PID 2>/dev/null" EXIT

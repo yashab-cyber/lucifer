@@ -1,0 +1,92 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#1e1e1e" rx="80"/>
+  
+  <!-- Flame background glow -->
+  <defs>
+    <radialGradient id="flameGlow" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#ff4444;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#ff4444;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="flameGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff8844"/>
+      <stop offset="50%" style="stop-color:#ff4444"/>
+      <stop offset="100%" style="stop-color:#cc0000"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Glow circle -->
+  <circle cx="256" cy="256" r="200" fill="url(#flameGlow)"/>
+  
+  <!-- Main flame shape -->
+  <path d="M 256 100 
+           C 220 150, 200 200, 200 250
+           C 200 300, 220 340, 256 370
+           C 292 340, 312 300, 312 250
+           C 312 200, 292 150, 256 100
+           Z" 
+        fill="url(#flameGradient)" 
+        stroke="#ff6666" 
+        stroke-width="3"/>
+  
+  <!-- Left flame wing -->
+  <path d="M 200 250 
+           C 180 220, 150 200, 130 220
+           C 110 240, 120 270, 140 290
+           C 160 280, 180 270, 200 250
+           Z" 
+        fill="url(#flameGradient)" 
+        opacity="0.8"/>
+  
+  <!-- Right flame wing -->
+  <path d="M 312 250 
+           C 332 220, 362 200, 382 220
+           C 402 240, 392 270, 372 290
+           C 352 280, 332 270, 312 250
+           Z" 
+        fill="url(#flameGradient)" 
+        opacity="0.8"/>
+  
+  <!-- Inner flame highlight -->
+  <path d="M 256 140 
+           C 240 170, 230 200, 230 230
+           C 230 260, 240 280, 256 300
+           C 272 280, 282 260, 282 230
+           C 282 200, 272 170, 256 140
+           Z" 
+        fill="#ffaa44" 
+        opacity="0.6"/>
+  
+  <!-- Devil horns -->
+  <path d="M 200 120 Q 180 80 160 100" 
+        fill="none" 
+        stroke="#ff4444" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  <path d="M 312 120 Q 332 80 352 100" 
+        fill="none" 
+        stroke="#ff4444" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  
+  <!-- Devil tail -->
+  <path d="M 256 370 Q 280 420 300 450 Q 310 470 320 460" 
+        fill="none" 
+        stroke="#ff4444" 
+        stroke-width="6" 
+        stroke-linecap="round"/>
+  <path d="M 320 460 L 305 455 L 315 445" 
+        fill="#ff4444"/>
+  
+  <!-- Eyes (digital/AI look) -->
+  <circle cx="235" cy="220" r="8" fill="#00ffff"/>
+  <circle cx="277" cy="220" r="8" fill="#00ffff"/>
+  
+  <!-- Binary code around (AI theme) -->
+  <text x="100" y="450" font-family="monospace" font-size="20" fill="#ff4444" opacity="0.3">01001100</text>
+  <text x="320" y="450" font-family="monospace" font-size="20" fill="#ff4444" opacity="0.3">01010101</text>
+  
+  <!-- Bottom text -->
+  <text x="256" y="480" font-family="Arial, sans-serif" font-size="32" font-weight="bold" 
+        fill="#ff4444" text-anchor="middle">LUCIFER</text>
+</svg>

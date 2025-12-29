@@ -1,0 +1,92 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lucifer"
+version = "1.0.0"
+description = "AI-powered cybersecurity automation assistant for penetration testing and bug bounty hunting"
+authors = [
+    {name = "Lucifer Team", email = "team@lucifer-sec.dev"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["cybersecurity", "pentesting", "bug-bounty", "ai", "automation", "kali-linux"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Information Technology",
+    "Topic :: Security",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    "pyte>=0.8.2",
+    "pillow>=10.0.0",
+    "opencv-python>=4.8.0",
+    "pytesseract>=0.3.10",
+    "pyscreenshot>=3.1",
+    "mss>=9.0.1",
+    "anthropic>=0.18.0",
+    "openai>=1.12.0",
+    "python-dotenv>=1.0.0",
+    "rich>=13.7.0",
+    "click>=8.1.7",
+    "pydantic>=2.6.0",
+    "pydantic-settings>=2.1.0",
+    "asyncio>=3.4.3",
+    "aiofiles>=23.2.1",
+    "httpx>=0.26.0",
+    "pyyaml>=6.0.1",
+    "prompt-toolkit>=3.0.43",
+    "colorama>=0.4.6",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-asyncio>=0.21.0",
+    "pytest-cov>=4.1.0",
+    "black>=23.12.0",
+    "ruff>=0.1.11",
+    "mypy>=1.8.0",
+    "pre-commit>=3.6.0",
+]
+
+[project.scripts]
+lucifer = "lucifer.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/yashab-cyber/lucifer"
+Documentation = "https://github.com/yashab-cyber/lucifer/wiki"
+Repository = "https://github.com/yashab-cyber/lucifer"
+Issues = "https://github.com/yashab-cyber/lucifer/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 100
+target-version = ['py310']
+include = '\.pyi?$'
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+select = ["E", "F", "I", "N", "W", "UP"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --cov=src/lucifer --cov-report=html --cov-report=term-missing"
