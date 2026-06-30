@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lucifer - AI-powered cybersecurity automation assistant for penetration testing and bug bounty hunting. Automate recon, web app scans, and exploitation with Claude and GPT-4.">
+    <title>Lucifer AI - Cybersecurity Automation Assistant</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header id="main-header">
+        <div class="container nav-container">
+            <a href="#" class="logo-link">
+                <span class="glow-text logo-icon">🔥</span>
+                <span class="logo-text">LUCIFER<span class="accent-text">.AI</span></span>
+            </a>
+            <nav id="main-nav">
+                <a href="#features">Features</a>
+                <a href="#demo">Interactive Demo</a>
+                <a href="#quickstart">Quickstart</a>
+                <a href="#support">Sponsor</a>
+            </nav>
+            <div class="nav-cta">
+                <a href="https://github.com/yashab-cyber/lucifer" target="_blank" rel="noopener noreferrer" class="btn btn-secondary nav-btn" id="github-nav-btn">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge">V1.0.0 Stable Released</div>
+                <h1>AI-Powered <span class="accent-red glow-text-red">Cybersecurity</span> Automation Assistant</h1>
+                <p class="hero-lead">An intelligent security assistant combining terminal capture, computer vision (OCR), and advanced AI inference to automate penetration testing and bug bounty hunting workflows.</p>
+                <div class="hero-actions">
+                    <a href="#quickstart" class="btn btn-primary" id="hero-get-started-btn">
+                        <i class="fas fa-terminal"></i> Get Started
+                    </a>
+                    <a href="https://github.com/yashab-cyber/lucifer" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" id="hero-github-btn">
+                        <i class="fab fa-github"></i> Star on GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="img-wrapper">
+                    <img src="images/hero_banner.jpg" alt="Lucifer AI Security Dashboard Mockup" class="hero-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title">Automate Security with <span class="accent-cyan">Intelligence</span></h2>
+                <p class="section-subtitle">Lucifer bridges the gap between raw hacking tools and agentic AI capabilities.</p>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-microchip"></i></div>
+                    <h3>Async AI Engines</h3>
+                    <p>Native integration with Claude 3.5 Sonnet, GPT-4, and local Ollama models. Runs non-blocking reasoning for optimal pentesting guidance.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-terminal"></i></div>
+                    <h3>Terminal Capture</h3>
+                    <p>Automatically records shell command history and monitors output buffers. Tracks status to learn from failure and suggest follow-ups.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-eye"></i></div>
+                    <h3>Vision & OCR Analysis</h3>
+                    <p>Scans active application screens and captures visual context. Employs OCR fallback to parse terminal and GUI coordinates headlessly.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-route"></i></div>
+                    <h3>Automated Workflows</h3>
+                    <p>Built-in steps for Host Discovery, Web App vulnerability scans (Gobuster, Nikto, Sqlmap), and privilege escalation (LinPEAS).</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-file-invoice"></i></div>
+                    <h3>Professional Reports</h3>
+                    <p>Compile details, commands run, and screenshots into formatted HTML, Markdown, or JSON reports automatically on teardown.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-shield-halved"></i></div>
+                    <h3>Dangerous Filters</h3>
+                    <p>Audit and filtering capabilities ensure the assistant asks for confirmation before executing commands (like fork-bombs or destructive wipes).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Terminal Demo Section -->
+    <section id="demo" class="section-dark">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title">See Lucifer in <span class="accent-red">Action</span></h2>
+                <p class="section-subtitle">Watch Lucifer capture terminal states, analyze with AI, and execute security scans.</p>
+            </div>
+            
+            <div class="terminal-mockup">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span class="close"></span>
+                        <span class="minimize"></span>
+                        <span class="expand"></span>
+                    </div>
+                    <div class="terminal-title">lucifer@assistant:~</div>
+                </div>
+                <div class="terminal-body" id="demo-terminal">
+                    <div class="terminal-line"><span class="prompt">lucifer@assistant:~$</span> <span class="typing" id="typed-text"></span></div>
+                    <div class="terminal-output" id="terminal-output-container"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quickstart Section -->
+    <section id="quickstart">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title">Get Started in <span class="accent-cyan">Seconds</span></h2>
+                <p class="section-subtitle">Simple installation guide to spin up the Lucifer terminal assistant.</p>
+            </div>
+            
+            <div class="quickstart-container">
+                <div class="tabs">
+                    <button class="tab-btn active" data-tab="tab-install" id="tab-install-btn">Installation</button>
+                    <button class="tab-btn" data-tab="tab-config" id="tab-config-btn">Configuration</button>
+                    <button class="tab-btn" data-tab="tab-run" id="tab-run-btn">Running</button>
+                </div>
+                
+                <div class="tab-contents">
+                    <div class="tab-content active" id="tab-install">
+                        <pre><code><span class="comment"># Clone the repository</span>
+git clone https://github.com/yashab-cyber/lucifer.git
+<span class="command">cd lucifer</span>
+
+<span class="comment"># Run the installation script (Kali or Debian-based)</span>
+./install.sh
+
+<span class="comment"># Activate the environment</span>
+source venv/bin/activate</code></pre>
+                        <button class="btn-copy" id="copy-install-btn"><i class="far fa-copy"></i> Copy Code</button>
+                    </div>
+                    
+                    <div class="tab-content" id="tab-config">
+                        <pre><code><span class="comment"># Edit the environment configuration file</span>
+nano .env
+
+<span class="comment"># Add your API keys and select provider:</span>
+AI_PROVIDER=anthropic
+ANTHROPIC_API_KEY=your_key_here
+OPENAI_API_KEY=your_key_here
+
+<span class="comment"># Test configuration</span>
+lucifer config-check</code></pre>
+                        <button class="btn-copy" id="copy-config-btn"><i class="far fa-copy"></i> Copy Code</button>
+                    </div>
+                    
+                    <div class="tab-content" id="tab-run">
+                        <pre><code><span class="comment"># Run in interactive CLI mode</span>
+lucifer start --interactive
+
+<span class="comment"># Or run a targeted workflow automatically</span>
+lucifer start --target 192.168.1.100 --workflow recon
+
+<span class="comment"># Start the backend server for GUI desktop integration</span>
+python3 src/lucifer/server.py</code></pre>
+                        <button class="btn-copy" id="copy-run-btn"><i class="far fa-copy"></i> Copy Code</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support/Creator Section -->
+    <section id="support" class="section-dark">
+        <div class="container support-container">
+            <div class="creator-card">
+                <span class="glow-text heart-icon">❤️</span>
+                <h2>Meet the Developer</h2>
+                <h3>Yashab Alam</h3>
+                <p>Security Researcher & Full-Stack Developer creating next-generation automated cybersecurity assistance tools.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/yashab-alam" target="_blank" rel="noopener noreferrer" class="social-icon" id="creator-linkedin"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/yashabcyber" target="_blank" rel="noopener noreferrer" class="social-icon" id="creator-instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com/Yashab_cyber" target="_blank" rel="noopener noreferrer" class="social-icon" id="creator-x"><i class="fab fa-x-twitter"></i></a>
+                    <a href="https://www.threads.net/@yashabcyber" target="_blank" rel="noopener noreferrer" class="social-icon" id="creator-threads"><i class="fab fa-threads"></i></a>
+                    <a href="mailto:yashabalam9@gmail.com?cc=yashabalam707@gmail.com" class="social-icon" id="creator-email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            
+            <div class="donate-content">
+                <h2>Support Project Development</h2>
+                <p>Lucifer is free, open source, and built for the community. If this project helps you in your research, CTFs, or bug hunting, please consider supporting development through sponsorships or crypto contributions.</p>
+                
+                <div class="donation-methods">
+                    <div class="method-card">
+                        <h4>GitHub Sponsors</h4>
+                        <p>github.com/sponsors/yashab-cyber</p>
+                    </div>
+                    <div class="method-card">
+                        <h4>Crypto Addresses</h4>
+                        <p>Bitcoin (BTC), Ethereum (ETH) & USDT addresses available upon inquiry.</p>
+                        <a href="mailto:yashabalam9@gmail.com?subject=USDT/BTC/ETH Donation Inquiry" class="btn btn-primary btn-sm" id="donate-inquire-btn">Inquire Crypto Address</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2026 Lucifer Security. Built with ❤️ for the Cybersecurity Community.</p>
+            <div class="footer-links">
+                <a href="https://github.com/yashab-cyber/lucifer/issues" target="_blank" rel="noopener noreferrer">Issues</a>
+                <a href="https://github.com/yashab-cyber/lucifer/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">License</a>
+                <a href="https://github.com/yashab-cyber/lucifer" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Repository</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
