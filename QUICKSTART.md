@@ -6,7 +6,9 @@
 
 ### Created by Yashab Alam
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Yashab%20Alam-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yashab-alam)
-[![Instagram](https://img.shields.io/badge/Instagram-@yashab.alam-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/yashab.alam)
+[![Instagram](https://img.shields.io/badge/Instagram-@yashabcyber-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/yashabcyber)
+[![X](https://img.shields.io/badge/X-@Yashab__cyber-000000?style=flat&logo=x&logoColor=white)](https://x.com/Yashab_cyber)
+[![Threads](https://img.shields.io/badge/Threads-@yashabcyber-000000?style=flat&logo=threads&logoColor=white)](https://www.threads.net/@yashabcyber)
 
 </div>
 
@@ -272,7 +274,7 @@ Unauthorized access to computer systems is illegal. Users are responsible for co
 
 - **Documentation**: See `README.md`
 - **Examples**: Check `examples/` directory
-- **Support**: Contact yashabalam9@gmail.com
+- **Support**: Contact yashabalam9@gmail.com / yashabalam707@gmail.com
 - **Contributing**: See `CONTRIBUTING.md`
 - **Donate**: See [DONATE.md](DONATE.md) to support development
 

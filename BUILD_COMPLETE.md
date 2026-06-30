@@ -9,8 +9,8 @@
 **Created by Yashab Alam**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Yashab%20Alam-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yashab-alam)
-[![Instagram](https://img.shields.io/badge/Instagram-@yashab.alam-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/yashab.alam)
-[![Email](https://img.shields.io/badge/Email-yashabalam9@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yashabalam9@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-@yashab.alam-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/yashabcyber)
+[![Email](https://img.shields.io/badge/Email-yashabalam9@gmail.com / yashabalam707@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yashabalam9@gmail.com?cc=yashabalam707@gmail.com)
 
 </div>
 
@@ -49,8 +49,8 @@
 ### ✅ Branding & Credits
 - [x] "Created by Yashab Alam" prominently displayed
 - [x] LinkedIn link: [linkedin.com/in/yashab-alam](https://www.linkedin.com/in/yashab-alam)
-- [x] Instagram link: [@yashab.alam](https://www.instagram.com/yashab.alam)
-- [x] DONATE.md with contact: yashabalam9@gmail.com
+- [x] Instagram link: [@yashab.alam](https://www.instagram.com/yashabcyber)
+- [x] DONATE.md with contact: yashabalam9@gmail.com / yashabalam707@gmail.com
 - [x] Credits in all documentation
 - [x] About modal in GUI with full attribution
 
@@ -190,8 +190,8 @@ nano .env  # Add your API key
 
 ### Contact Links:
 - 🔗 **LinkedIn**: [linkedin.com/in/yashab-alam](https://www.linkedin.com/in/yashab-alam)
-- 📸 **Instagram**: [@yashab.alam](https://www.instagram.com/yashab.alam)
-- 📧 **Email**: yashabalam9@gmail.com
+- 📸 **Instagram**: [@yashab.alam](https://www.instagram.com/yashabcyber)
+- 📧 **Email**: yashabalam9@gmail.com / yashabalam707@gmail.com
 - 💼 **GitHub**: @yashab-cyber
 
 ---
@@ -200,7 +200,7 @@ nano .env  # Add your API key
 
 ### DONATE.md Created
 - ✅ Complete donation page
-- ✅ Contact email: yashabalam9@gmail.com
+- ✅ Contact email: yashabalam9@gmail.com / yashabalam707@gmail.com
 - ✅ PayPal donation option
 - ✅ Cryptocurrency addresses
 - ✅ Sponsorship tiers
@@ -333,7 +333,7 @@ nano .env  # Add your API key
 - Pentesting workflows ✓
 
 ### Additional Request
-> "make gui also using react but not web based instead after installation the icon shows in application manager and shortcut of the icon show on desktop and the logo image is in public folder also use this image in main reade .md and others and this project is made by Yashab alam and mention my linkdin https://www.linkedin.com/in/yashab-alam and instagram https://www.instagram.com/yashab.alam and make a donate.md also for donation contact yashabalam9@gmail.com"
+> "make gui also using react but not web based instead after installation the icon shows in application manager and shortcut of the icon show on desktop and the logo image is in public folder also use this image in main reade .md and others and this project is made by Yashab alam and mention my linkdin https://www.linkedin.com/in/yashab-alam and instagram https://www.instagram.com/yashabcyber and make a donate.md also for donation contact yashabalam9@gmail.com / yashabalam707@gmail.com"
 
 ### Status: ✅ COMPLETE
 - React desktop app (Electron) ✓
@@ -485,8 +485,10 @@ Thank you for building with Lucifer! This project represents:
 **Made with ❤️ by Yashab Alam**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yashab-alam)
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram)](https://www.instagram.com/yashab.alam)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:yashabalam9@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram)](https://www.instagram.com/yashabcyber)
+[![X](https://img.shields.io/badge/X-Follow-000000?style=for-the-badge&logo=x)](https://x.com/Yashab_cyber)
+[![Threads](https://img.shields.io/badge/Threads-Follow-000000?style=for-the-badge&logo=threads)](https://www.threads.net/@yashabcyber)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:yashabalam9@gmail.com?cc=yashabalam707@gmail.com)
 
 ---
 

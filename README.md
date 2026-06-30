@@ -13,8 +13,10 @@
 ### Created by Yashab Alam
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Yashab%20Alam-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yashab-alam)
-[![Instagram](https://img.shields.io/badge/Instagram-@yashab.alam-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/yashab.alam)
-[![Email](https://img.shields.io/badge/Email-yashabalam9@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:yashabalam9@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-@yashabcyber-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/yashabcyber)
+[![X](https://img.shields.io/badge/X-@Yashab__cyber-000000?style=flat&logo=x&logoColor=white)](https://x.com/Yashab_cyber)
+[![Threads](https://img.shields.io/badge/Threads-@yashabcyber-000000?style=flat&logo=threads&logoColor=white)](https://www.threads.net/@yashabcyber)
+[![Email](https://img.shields.io/badge/Email-yashabalam9@gmail.com / yashabalam707@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:yashabalam9@gmail.com?cc=yashabalam707@gmail.com)
 
 **[Support this project](DONATE.md)** ❤️
 
@@ -446,8 +448,10 @@ By using Lucifer, you agree to use it responsibly and ethically.
 **Yashab Alam**
 
 - LinkedIn: [linkedin.com/in/yashab-alam](https://www.linkedin.com/in/yashab-alam)
-- Instagram: [@yashab.alam](https://www.instagram.com/yashab.alam)
-- Email: yashabalam9@gmail.com
+- Instagram: [@yashabcyber](https://www.instagram.com/yashabcyber)
+- 🐦 X (Twitter): [@Yashab_cyber](https://x.com/Yashab_cyber)
+- 🧵 Threads: [@yashabcyber](https://www.threads.net/@yashabcyber)
+- Email: yashabalam9@gmail.com / yashabalam707@gmail.com
 
 **[Support this project](DONATE.md)** ❤️
 
@@ -472,7 +476,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Made with ❤️ by **Yashab Alam**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yashab-alam)
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram)](https://www.instagram.com/yashab.alam)
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram)](https://www.instagram.com/yashabcyber)
+[![X](https://img.shields.io/badge/X-Follow-000000?style=for-the-badge&logo=x)](https://x.com/Yashab_cyber)
+[![Threads](https://img.shields.io/badge/Threads-Follow-000000?style=for-the-badge&logo=threads)](https://www.threads.net/@yashabcyber)
 
 </div>
 

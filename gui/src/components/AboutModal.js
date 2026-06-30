@@ -213,14 +213,14 @@ const AboutModal = ({ onClose }) => {
                   <FiLinkedin /> LinkedIn
                 </SocialLink>
                 <SocialLink 
-                  href="https://www.instagram.com/yashab.alam" 
+                  href="https://www.instagram.com/yashabcyber" 
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <FiInstagram /> Instagram
                 </SocialLink>
                 <SocialLink 
-                  href="mailto:yashabalam9@gmail.com"
+                  href="mailto:yashabalam9@gmail.com?cc=yashabalam707@gmail.com"
                 >
                   <FiMail /> Email
                 </SocialLink>
@@ -249,7 +249,7 @@ const AboutModal = ({ onClose }) => {
             </InfoList>
           </Section>
 
-          <DonateButton href="mailto:yashabalam9@gmail.com?subject=Lucifer Donation">
+          <DonateButton href="mailto:yashabalam9@gmail.com?cc=yashabalam707@gmail.com?subject=Lucifer Donation">
             ❤️ Support This Project
           </DonateButton>
         </Content>

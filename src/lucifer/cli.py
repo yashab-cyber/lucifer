@@ -46,8 +46,10 @@ def print_banner():
     credits_panel = Panel(
         "[bold cyan]Created by Yashab Alam[/bold cyan]\n\n"
         "[dim]LinkedIn:[/dim] [blue]linkedin.com/in/yashab-alam[/blue]\n"
-        "[dim]Instagram:[/dim] [magenta]@yashab.alam[/magenta]\n"
-        "[dim]Email:[/dim] yashabalam9@gmail.com\n\n"
+        "[dim]Instagram:[/dim] [magenta]@yashabcyber[/magenta]\n"
+        "[dim]X/Twitter:[/dim] [cyan]@Yashab_cyber[/cyan]\n"
+        "[dim]Threads:[/dim] [white]@yashabcyber[/white]\n"
+        "[dim]Email:[/dim] yashabalam9@gmail.com / yashabalam707@gmail.com\n\n"
         "[yellow]💖 Support this project:[/yellow] [green]Type 'donate' for details[/green]",
         title="[bold red]About[/bold red]",
         border_style="red",
@@ -75,7 +77,7 @@ def donate():
         "[bold yellow]💖 Support Lucifer Development[/bold yellow]\n\n"
         "[green]Thank you for considering supporting this project![/green]\n\n"
         "[bold cyan]Created by Yashab Alam[/bold cyan]\n"
-        "[dim]Contact:[/dim] yashabalam9@gmail.com\n\n"
+        "[dim]Contact:[/dim] yashabalam9@gmail.com / yashabalam707@gmail.com\n\n"
         "[bold]Cryptocurrency Donations:[/bold]\n"
         "• Bitcoin (BTC): Contact for address\n"
         "• Ethereum (ETH): Contact for address\n"
@@ -85,8 +87,10 @@ def donate():
         "• github.com/sponsors/yashab-cyber\n\n"
         "[bold]Connect with me:[/bold]\n"
         "• LinkedIn: linkedin.com/in/yashab-alam\n"
-        "• Instagram: @yashab.alam\n"
-        "• Email: yashabalam9@gmail.com\n\n"
+        "• Instagram: @yashabcyber\n"
+        "• X (Twitter): @Yashab_cyber\n"
+        "• Threads: @yashabcyber\n"
+        "• Email: yashabalam9@gmail.com / yashabalam707@gmail.com\n\n"
         "[dim]Your support helps maintain and improve Lucifer!\n"
         "See DONATE.md for more details.[/dim]",
         title="[bold red]❤️  Donate[/bold red]",
@@ -283,7 +287,7 @@ def show_donate_info():
         "[bold yellow]💖 Support Lucifer Development[/bold yellow]\n\n"
         "[green]Thank you for considering supporting this project![/green]\n\n"
         "[bold cyan]Created by Yashab Alam[/bold cyan]\n"
-        "[dim]Contact:[/dim] yashabalam9@gmail.com\n\n"
+        "[dim]Contact:[/dim] yashabalam9@gmail.com / yashabalam707@gmail.com\n\n"
         "[bold]Cryptocurrency Donations:[/bold]\n"
         "• Bitcoin (BTC): Contact for address\n"
         "• Ethereum (ETH): Contact for address\n"
@@ -293,8 +297,10 @@ def show_donate_info():
         "• github.com/sponsors/yashab-cyber\n\n"
         "[bold]Connect:[/bold]\n"
         "• LinkedIn: linkedin.com/in/yashab-alam\n"
-        "• Instagram: @yashab.alam\n"
-        "• Email: yashabalam9@gmail.com\n\n"
+        "• Instagram: @yashabcyber\n"
+        "• X (Twitter): @Yashab_cyber\n"
+        "• Threads: @yashabcyber\n"
+        "• Email: yashabalam9@gmail.com / yashabalam707@gmail.com\n\n"
         "[dim]Your support helps maintain and improve Lucifer![/dim]",
         title="[bold red]❤️  Donate[/bold red]",
         border_style="yellow",
@@ -313,9 +319,11 @@ def show_credits():
         "[bold cyan]Created by Yashab Alam[/bold cyan]\n\n"
         "[bold]Connect:[/bold]\n"
         "• LinkedIn: [blue]linkedin.com/in/yashab-alam[/blue]\n"
-        "• Instagram: [magenta]@yashab.alam[/magenta]\n"
+        "• Instagram: [magenta]@yashabcyber[/magenta]\n"
+        "• X (Twitter): [cyan]@Yashab_cyber[/cyan]\n"
+        "• Threads: [white]@yashabcyber[/white]\n"
         "• GitHub: [green]github.com/yashab-cyber[/green]\n"
-        "• Email: yashabalam9@gmail.com\n\n"
+        "• Email: yashabalam9@gmail.com / yashabalam707@gmail.com\n\n"
         "[yellow]💖 Support this project:[/yellow] [green]lucifer donate[/green]\n\n"
         "[dim]Open source • MIT License • Made with ❤️[/dim]",
         title="[bold red]Credits[/bold red]",

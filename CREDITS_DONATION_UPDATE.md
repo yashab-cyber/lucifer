@@ -12,14 +12,14 @@ I've successfully integrated donation requests and your credits throughout both 
 - Added credits panel below ASCII banner with:
   - "Created by Yashab Alam"
   - LinkedIn: linkedin.com/in/yashab-alam
-  - Instagram: @yashab.alam
-  - Email: yashabalam9@gmail.com
+  - Instagram: @yashabcyber
+  - Email: yashabalam9@gmail.com / yashabalam707@gmail.com
   - Donation reminder
 
 ### 2. New Commands
 
 **`lucifer donate`** - Dedicated donation command showing:
-- PayPal: yashabalam9@gmail.com
+- PayPal: yashabalam9@gmail.com / yashabalam707@gmail.com
 - GitHub Sponsors link
 - Buy Me a Coffee link
 - Cryptocurrency options
@@ -67,7 +67,7 @@ Beautiful modal featuring:
 - Social links (LinkedIn, Instagram, GitHub)
 
 **Donation Methods**:
-- Email/PayPal: yashabalam9@gmail.com
+- Email/PayPal: yashabalam9@gmail.com / yashabalam707@gmail.com
 - GitHub Sponsors
 - Buy Me a Coffee
 - Bitcoin (BTC)
@@ -140,7 +140,7 @@ Beautiful modal featuring:
 ┌─────────────── About ───────────────┐
 │ Created by Yashab Alam              │
 │ LinkedIn: linkedin.com/in/...       │
-│ Instagram: @yashab.alam             │
+│ Instagram: @yashabcyber             │
 │ 💖 Support: Type 'donate'           │
 └─────────────────────────────────────┘
 ```
@@ -214,7 +214,7 @@ Your credits and donation requests now appear in:
 ## 📧 Contact Information Displayed
 
 Everywhere throughout the app:
-- **Email**: yashabalam9@gmail.com
+- **Email**: yashabalam9@gmail.com / yashabalam707@gmail.com
 - **LinkedIn**: linkedin.com/in/yashab-alam
 - **Instagram**: @yashab.alam
 - **GitHub**: github.com/yashab-cyber

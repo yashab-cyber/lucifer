@@ -211,7 +211,7 @@ const DonateModal = ({ onClose }) => {
             <SocialLink href="https://www.linkedin.com/in/yashab-alam" target="_blank" rel="noopener noreferrer">
               <FiLinkedin /> LinkedIn
             </SocialLink>
-            <SocialLink href="https://www.instagram.com/yashab.alam" target="_blank" rel="noopener noreferrer">
+            <SocialLink href="https://www.instagram.com/yashabcyber" target="_blank" rel="noopener noreferrer">
               <FiInstagram /> Instagram
             </SocialLink>
             <SocialLink href="https://github.com/yashab-cyber" target="_blank" rel="noopener noreferrer">
@@ -238,22 +238,22 @@ const DonateModal = ({ onClose }) => {
 
           <DonationOption>
             <OptionTitle>₿ Bitcoin (BTC)</OptionTitle>
-            <OptionValue>Contact for address: yashabalam9@gmail.com</OptionValue>
+            <OptionValue>Contact for address: yashabalam9@gmail.com / yashabalam707@gmail.com</OptionValue>
           </DonationOption>
 
           <DonationOption>
             <OptionTitle>⟠ Ethereum (ETH)</OptionTitle>
-            <OptionValue>Contact for address: yashabalam9@gmail.com</OptionValue>
+            <OptionValue>Contact for address: yashabalam9@gmail.com / yashabalam707@gmail.com</OptionValue>
           </DonationOption>
 
           <DonationOption>
             <OptionTitle>💵 USDT (Tether)</OptionTitle>
-            <OptionValue>TRC20/ERC20 - Contact: yashabalam9@gmail.com</OptionValue>
+            <OptionValue>TRC20/ERC20 - Contact: yashabalam9@gmail.com / yashabalam707@gmail.com</OptionValue>
           </DonationOption>
 
           <DonationOption>
             <OptionTitle>🪙 Other Cryptocurrencies</OptionTitle>
-            <OptionValue>Email yashabalam9@gmail.com for addresses</OptionValue>
+            <OptionValue>Email yashabalam9@gmail.com / yashabalam707@gmail.com for addresses</OptionValue>
           </DonationOption>
         </Section>
 
@@ -274,7 +274,7 @@ const DonateModal = ({ onClose }) => {
           </SectionTitle>
           <InfoText>
             For sponsorship inquiries, custom features, or questions:<br/>
-            <strong style={{ color: '#ff4499' }}>yashabalam9@gmail.com</strong>
+            <strong style={{ color: '#ff4499' }}>yashabalam9@gmail.com / yashabalam707@gmail.com</strong>
           </InfoText>
         </Section>
 

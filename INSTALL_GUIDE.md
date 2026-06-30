@@ -9,8 +9,8 @@
 **Created by Yashab Alam**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Yashab%20Alam-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yashab-alam)
-[![Instagram](https://img.shields.io/badge/Instagram-@yashab.alam-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/yashab.alam)
-[![Email](https://img.shields.io/badge/Email-yashabalam9@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yashabalam9@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-@yashab.alam-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/yashabcyber)
+[![Email](https://img.shields.io/badge/Email-yashabalam9@gmail.com / yashabalam707@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yashabalam9@gmail.com?cc=yashabalam707@gmail.com)
 
 **[💖 Support This Project](DONATE.md)**
 
@@ -356,7 +356,7 @@ Lucifer is free and open source. If you find it valuable, please consider suppor
 
 **[View Donation Options](DONATE.md)**
 
-Contact: yashabalam9@gmail.com
+Contact: yashabalam9@gmail.com / yashabalam707@gmail.com
 
 ---
 
@@ -365,8 +365,10 @@ Contact: yashabalam9@gmail.com
 **Yashab Alam**
 
 - 🔗 LinkedIn: [linkedin.com/in/yashab-alam](https://www.linkedin.com/in/yashab-alam)
-- 📸 Instagram: [@yashab.alam](https://www.instagram.com/yashab.alam)
-- 📧 Email: yashabalam9@gmail.com
+- 📸 Instagram: [@yashabcyber](https://www.instagram.com/yashabcyber)
+- 🐦 X (Twitter): [@Yashab_cyber](https://x.com/Yashab_cyber)
+- 🧵 Threads: [@yashabcyber](https://www.threads.net/@yashabcyber)
+- 📧 Email: yashabalam9@gmail.com / yashabalam707@gmail.com
 - 💼 GitHub: [@yashab-cyber](https://github.com/yashab-cyber)
 
 ---
@@ -408,8 +410,10 @@ MIT License - See LICENSE file for details
 **Made with ❤️ and ☕ by Yashab Alam**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yashab-alam)
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram)](https://www.instagram.com/yashab.alam)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:yashabalam9@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram)](https://www.instagram.com/yashabcyber)
+[![X](https://img.shields.io/badge/X-Follow-000000?style=for-the-badge&logo=x)](https://x.com/Yashab_cyber)
+[![Threads](https://img.shields.io/badge/Threads-Follow-000000?style=for-the-badge&logo=threads)](https://www.threads.net/@yashabcyber)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:yashabalam9@gmail.com?cc=yashabalam707@gmail.com)
 
 **[💖 Donate](DONATE.md) | [📖 Docs](README.md) | [🚀 Quick Start](QUICKSTART.md) | [🤝 Contribute](CONTRIBUTING.md)**
 

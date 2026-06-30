@@ -25,7 +25,7 @@ Your donations help:
 
 To support this project, please reach out via email:
 
-**Email:** yashabalam9@gmail.com
+**Email:** yashabalam9@gmail.com / yashabalam707@gmail.com
 
 **Subject:** Lucifer Project Donation
 
@@ -63,7 +63,7 @@ In your email, please mention:
 
 If your organization is interested in sponsoring Lucifer or would like custom development, please contact:
 
-**Email:** yashabalam9@gmail.com
+**Email:** yashabalam9@gmail.com / yashabalam707@gmail.com
 
 We offer:
 - Custom feature development
@@ -95,8 +95,10 @@ Create blog posts, videos, or tutorials about using Lucifer.
 **Yashab Alam**
 
 - 🔗 LinkedIn: [linkedin.com/in/yashab-alam](https://www.linkedin.com/in/yashab-alam)
-- 📸 Instagram: [instagram.com/yashab.alam](https://www.instagram.com/yashab.alam)
-- 📧 Email: yashabalam9@gmail.com
+- 📸 Instagram: [@yashabcyber](https://www.instagram.com/yashabcyber)
+- 🐦 X (Twitter): [@Yashab_cyber](https://x.com/Yashab_cyber)
+- 🧵 Threads: [@yashabcyber](https://www.threads.net/@yashabcyber)
+- 📧 Email: yashabalam9@gmail.com / yashabalam707@gmail.com
 - 💻 GitHub: [github.com/yashab-cyber](https://github.com/yashab-cyber)
 
 ## Transparency
@@ -116,7 +118,7 @@ Thank you to all our supporters! Your contributions make this project possible.
 
 <!-- Supporters will be listed here -->
 
-*Be the first to support! Contact yashabalam9@gmail.com*
+*Be the first to support! Contact yashabalam9@gmail.com / yashabalam707@gmail.com*
 
 ## License
 
@@ -159,4 +161,4 @@ Donations are voluntary and non-refundable. They do not entitle donors to any ow
 
 ---
 
-**Questions?** Email yashabalam9@gmail.com
+**Questions?** Email yashabalam9@gmail.com / yashabalam707@gmail.com
