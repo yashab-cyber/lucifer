@@ -51,7 +51,7 @@ class AnthropicEngine(AIEngine):
     def __init__(self, config: Config):
         """Initialize Anthropic engine."""
         self.config = config
-        self.client = anthropic.Anthropic(api_key=config.anthropic_api_key)
+        self.client = anthropic.AsyncAnthropic(api_key=config.anthropic_api_key)
         self.model = config.anthropic_model
         self.screen_capture = ScreenCapture()
 
@@ -75,7 +75,7 @@ Please analyze this output and provide:
 Provide your analysis in JSON format with keys: summary, findings, vulnerabilities, recommendations."""
 
         try:
-            message = self.client.messages.create(
+            message = await self.client.messages.create(
                 model=self.model,
                 max_tokens=2048,
                 messages=[{"role": "user", "content": prompt}],
@@ -103,7 +103,7 @@ Provide your analysis in JSON format with keys: summary, findings, vulnerabiliti
         prompt = question or "Analyze this screenshot from a security perspective. Identify any relevant information, potential vulnerabilities, or interesting findings."
 
         try:
-            message = self.client.messages.create(
+            message = await self.client.messages.create(
                 model=self.model,
                 max_tokens=2048,
                 messages=[
@@ -152,7 +152,7 @@ Provide specific, actionable commands or techniques. Focus on:
 Return ONLY a JSON array of command strings."""
 
         try:
-            message = self.client.messages.create(
+            message = await self.client.messages.create(
                 model=self.model,
                 max_tokens=1024,
                 messages=[{"role": "user", "content": prompt}],
@@ -199,7 +199,7 @@ Provide:
 Format as executable script or commands with comments."""
 
         try:
-            message = self.client.messages.create(
+            message = await self.client.messages.create(
                 model=self.model,
                 max_tokens=2048,
                 messages=[{"role": "user", "content": prompt}],
@@ -217,7 +217,7 @@ class OpenAIEngine(AIEngine):
     def __init__(self, config: Config):
         """Initialize OpenAI engine."""
         self.config = config
-        self.client = openai.OpenAI(api_key=config.openai_api_key)
+        self.client = openai.AsyncOpenAI(api_key=config.openai_api_key)
         self.model = config.openai_model
         self.screen_capture = ScreenCapture()
 
@@ -235,7 +235,7 @@ Terminal Output:
 Analyze and provide: summary, findings, vulnerabilities, recommendations."""
 
         try:
-            response = self.client.chat.completions.create(
+            response = await self.client.chat.completions.create(
                 model=self.model,
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=2048,
@@ -259,7 +259,7 @@ Analyze and provide: summary, findings, vulnerabilities, recommendations."""
         prompt = question or "Analyze this screenshot from a security perspective."
 
         try:
-            response = self.client.chat.completions.create(
+            response = await self.client.chat.completions.create(
                 model="gpt-4-vision-preview",
                 messages=[
                     {
@@ -298,7 +298,7 @@ Analyze and provide: summary, findings, vulnerabilities, recommendations."""
 Return JSON array of commands."""
 
         try:
-            response = self.client.chat.completions.create(
+            response = await self.client.chat.completions.create(
                 model=self.model,
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=1024,
@@ -326,7 +326,7 @@ Target: {target_info}
 Provide exploit code/commands with explanation."""
 
         try:
-            response = self.client.chat.completions.create(
+            response = await self.client.chat.completions.create(
                 model=self.model,
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=2048,

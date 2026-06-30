@@ -6,6 +6,7 @@ import pty
 import select
 import subprocess
 import threading
+import time
 from collections import deque
 from datetime import datetime
 from pathlib import Path
@@ -68,7 +69,7 @@ class TerminalCapture:
                 stdin=slave_fd,
                 stdout=slave_fd,
                 stderr=slave_fd,
-                preexec_fn=os.setsid,
+                start_new_session=True,
             )
 
             os.close(slave_fd)
@@ -237,7 +238,7 @@ class TerminalMonitor:
 
                 last_position = len(output)
 
-            asyncio.sleep(0.5)
+            time.sleep(0.5)
 
     def stop_monitoring(self) -> None:
         """Stop monitoring."""

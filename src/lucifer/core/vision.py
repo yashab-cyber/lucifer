@@ -27,7 +27,12 @@ class ScreenCapture:
         """
         self.quality = quality
         self.monitor_number = monitor_number
-        self.sct = mss.mss()
+        try:
+            self.sct = mss.MSS()
+        except Exception as e:
+            import sys
+            print(f"Warning: Failed to initialize mss ScreenCapture (no X display?): {e}", file=sys.stderr)
+            self.sct = None
 
     def capture_screenshot(self) -> Image.Image:
         """
@@ -36,6 +41,8 @@ class ScreenCapture:
         Returns:
             PIL Image of the screen
         """
+        if not self.sct:
+            return Image.new("RGB", (800, 600), color="black")
         monitor = self.sct.monitors[self.monitor_number]
         screenshot = self.sct.grab(monitor)
         img = Image.frombytes("RGB", screenshot.size, screenshot.bgra, "raw", "BGRX")
@@ -56,6 +63,8 @@ class ScreenCapture:
         Returns:
             PIL Image of the region
         """
+        if not self.sct:
+            return Image.new("RGB", (width, height), color="black")
         monitor = {"top": y, "left": x, "width": width, "height": height}
         screenshot = self.sct.grab(monitor)
         img = Image.frombytes("RGB", screenshot.size, screenshot.bgra, "raw", "BGRX")

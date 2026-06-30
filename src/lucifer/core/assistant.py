@@ -340,7 +340,17 @@ class LuciferAssistant:
 
         # Generate final report if auto-generate enabled
         if self.config.auto_generate_report:
-            asyncio.create_task(self.generate_report())
+            try:
+                loop = asyncio.get_running_loop()
+                if loop.is_running():
+                    loop.create_task(self.generate_report())
+                else:
+                    asyncio.run(self.generate_report())
+            except RuntimeError:
+                try:
+                    asyncio.run(self.generate_report())
+                except Exception as e:
+                    self.logger.error(f"Failed to generate report: {e}")
 
         self.logger.info("Lucifer assistant stopped")
 
